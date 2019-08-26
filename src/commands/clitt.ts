@@ -12,7 +12,7 @@ interface InputAsk extends BasicAsk {
 }
 
 interface SelectAsk extends BasicAsk {
-  type: 'list';
+  type: 'select';
   choices: string[];
 }
 
@@ -37,8 +37,8 @@ module.exports = {
           if (field.values) {
             return {
               ...ask,
-              type: 'list',
-              choices: field.values
+              type: 'select',
+              choices: [...field.values]
             };
           }          
           
