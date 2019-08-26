@@ -1,0 +1,57 @@
+{
+  "name": "clitt",
+  "version": "0.0.3",
+  "description": "Command line time tracker",
+  "private": false,
+  "bin": {
+    "clitt": "bin/clitt"
+  },
+  "scripts": {
+    "format": "prettier --write **/*.{js,ts,tsx,json}",
+    "lint": "tslint -p .",
+    "clean-build": "rm -rf ./build",
+    "compile": "tsc -p .",
+    "build": "yarn format && yarn lint && yarn clean-build && yarn compile",
+    "test": "jest",
+    "watch": "jest --watch",
+    "snapupdate": "jest --updateSnapshot",
+    "coverage": "jest --coverage"
+  },
+  "files": [
+    "tsconfig.json",
+    "tslint.json",
+    "build",
+    "LICENSE",
+    "readme.md",
+    "bin"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@types/uuid": "^3.4.5",
+    "gluegun": "^2.1.0",
+    "lowdb": "^1.0.0",
+    "ts-node": "^7.0.1",
+    "typescript": "3.2.2",
+    "uuid": "^3.3.3"
+  },
+  "devDependencies": {
+    "@types/jest": "^23.3.10",
+    "@types/lowdb": "^1.0.9",
+    "@types/node": "^10.12.12",
+    "jest": "^23.6.0",
+    "pkg": "^4.4.0",
+    "prettier": "^1.12.1",
+    "ts-jest": "^23.10.5",
+    "tslint": "^5.12.0",
+    "tslint-config-prettier": "^1.17.0",
+    "tslint-config-standard": "^8.0.1"
+  },
+  "jest": {
+    "preset": "ts-jest",
+    "testEnvironment": "node"
+  },
+  "prettier": {
+    "semi": true,
+    "singleQuote": true
+  }
+}
