@@ -1,5 +1,5 @@
 const { system, filesystem } = require('gluegun');
-const {version} = require('../package.json');
+const { version } = require('../package.json');
 
 const src = filesystem.path(__dirname, '..');
 

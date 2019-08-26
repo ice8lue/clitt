@@ -4,12 +4,12 @@
   "description": "Command line time tracker",
   "homepage": "https://github.com/ice8lue/clitt#readme",
   "bugs": {
-     "url" : "https://github.com/ice8lue/clitt/issues"
+    "url": "https://github.com/ice8lue/clitt/issues"
   },
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/ice8lue/clitt.git"
-  },  
+    "type": "git",
+    "url": "https://github.com/ice8lue/clitt.git"
+  },
   "author": {
     "name": "Frank Adler",
     "url": "https://adfr.io"
@@ -40,7 +40,7 @@
   "license": "MIT",
   "dependencies": {
     "@types/uuid": "^3.4.5",
-    "gluegun": "^2.1.0",
+    "gluegun": "^3.3.3",
     "lowdb": "^1.0.0",
     "ts-node": "^7.0.1",
     "typescript": "3.2.2",
