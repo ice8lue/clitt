@@ -2,6 +2,18 @@
   "name": "clitt",
   "version": "0.0.3",
   "description": "Command line time tracker",
+  "homepage": "https://github.com/ice8lue/clitt#readme",
+  "bugs": {
+     "url" : "https://github.com/ice8lue/clitt/issues"
+  },
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/ice8lue/clitt.git"
+  },  
+  "author": {
+    "name": "Frank Adler",
+    "url": "https://adfr.io"
+  },
   "private": false,
   "bin": {
     "clitt": "bin/clitt"
