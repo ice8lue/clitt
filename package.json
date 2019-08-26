@@ -28,7 +28,7 @@
   "license": "MIT",
   "dependencies": {
     "@types/uuid": "^3.4.5",
-    "gluegun": "^2.1.0",
+    "gluegun": "^3.3.3",
     "lowdb": "^1.0.0",
     "ts-node": "^7.0.1",
     "typescript": "3.2.2",
