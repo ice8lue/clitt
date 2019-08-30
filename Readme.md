@@ -9,7 +9,7 @@ Install via NPM:
 `$ npm install -g clitt`
 
 or use yarn
-`$ yarn global add clitt``
+`$ yarn global add clitt`
 
 ## Usage
 
