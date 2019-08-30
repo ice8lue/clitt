@@ -13,7 +13,7 @@ export interface Field {
 
 type FieldValue = string | number | null;
 
-interface Entry {
+export interface Entry {
   id: string;
   start: number;
   data?: {

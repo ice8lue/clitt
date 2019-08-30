@@ -1,6 +1,5 @@
-import { Field } from './../DB';
+import DB, { Field } from './../DB';
 import { GluegunToolbox } from 'gluegun';
-import DB from '../DB';
 
 interface BasicAsk {
   name: string;
