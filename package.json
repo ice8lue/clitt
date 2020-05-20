@@ -39,7 +39,7 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "@types/uuid": "^7.0.0",
+    "@types/uuid": "^8.0.0",
     "gluegun": "^4.0.1",
     "lowdb": "^1.0.0",
     "table": "^5.4.6",
