@@ -42,7 +42,7 @@
     "@types/uuid": "^8.0.0",
     "gluegun": "^4.0.1",
     "lowdb": "^1.0.0",
-    "table": "^5.4.6",
+    "table": "^6.0.1",
     "ts-node": "^9.0.0",
     "typescript": "3.9.7",
     "uuid": "^8.1.0"
